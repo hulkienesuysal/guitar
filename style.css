@@ -160,7 +160,7 @@ tr, td{
     margin-top: 1vw;
 }
 .dizi{
-    color: rgb(255, 247, 0);
+    color: rgba(255, 255, 0, 0.727);
     font-size: 1.5vw;
     font-weight: bold;
     text-decoration: none;
@@ -169,7 +169,7 @@ tr, td{
     margin-top: -0.5;
 }
 .transpoze{
-    color: rgb(255, 247, 0);
+    color: rgba(255, 255, 0, 0.727);
     font-size: 2vw;
     font-weight: bold;
     text-decoration: none;
