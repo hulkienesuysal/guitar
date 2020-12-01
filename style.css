@@ -1,0 +1,185 @@
+body{
+    background-color: rgb(0, 0, 0);
+    border: 0.5vw double;
+    border-color: rgba(255, 255, 0, 0.727);
+    border-radius: 1vw;
+    text-align: center;
+}
+.baslik1{
+    background-color: rgba(2, 122, 143, 0.344);
+    text-align: center;
+    align-items: center;
+    font-size: 5vw;
+    color: rgba(255, 255, 0, 0.727);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    border: 5px double rgba(255, 255, 0, 0.727) ;
+    border-radius: 1000vw 5vw ;
+    height: 7vw;
+    margin-top: 1vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 3vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    height: 6vw;
+}
+.kapsayıcı{
+    background-color: rgba(0, 44, 41, 0.426);
+    border: 5px double rgba(255, 255, 0, 0.727);
+    border-radius: 30px;
+    margin: 1vw;
+}
+.scale1{
+    background-color: rgb(107, 25, 25);
+    color: rgba(255, 255, 0, 0.727);
+    font-size: 2vw;
+    color: rgba(255, 255, 0, 0.727);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1vw;
+    border: 2px solid rgba(255, 255, 0, 0.727);
+    border-radius: 5vw 30vw;
+    margin-left: 37vw;
+    margin-right: 37vw;
+}
+table{
+    margin-left:auto; 
+    margin-right:auto;
+    border: 5px double rgb(165, 165, 165);
+    border-radius: 20px;
+}
+th{
+    color: rgb(59, 252, 0) ;
+    background-color: rgb(60, 72, 175) ;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 1vw;
+    border: 2px double rgba(255, 255, 0, 0.727);
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 6.5vw;
+    text-align: center;
+}
+tr, td{
+    border: 2px double rgba(255, 255, 0, 0.727);
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 6.5vw;
+    text-align: center;
+    background-color: rgb(128, 63, 59);
+    color: rgb(8, 0, 82);
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 1vw;
+}
+.perdesıfır{
+    background-color: hsla(0, 0%, 46%, 0.753);
+}
+.f{
+    background-color: #F44336;
+}
+.fd{
+    background-color: #E91E63;
+}
+.g{
+    background-color: #9C27B0;
+}
+.gd{
+    background-color: #3F51B5;
+}
+.a{
+    background-color: #00BCD4;
+}
+.ad{
+    background-color: #4CAF50;
+}
+.b{
+    background-color: #EF9A9A;
+}
+.c{
+    background-color: #9FA8DA;
+}
+.cd{
+    background-color: #757575;
+}
+.d{
+    background-color: #827717;
+}
+.dd{
+    background-color: #00FF00;
+}
+.e{
+    background-color: #705570;
+}
+.gamlaryazi{
+    background-color:  rgba(0, 213, 131, 0.378);
+    color: rgba(255, 255, 0, 0.727);
+    font-size: 5vw;
+    color: rgba(255, 255, 0, 0.727);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1vw;
+    border: 5px double rgba(255, 255, 0, 0.727);
+    border-radius: 1000vw 5vw ;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    text-decoration: underline;
+} 
+.gamkapsam{
+    background-color: rgb(8, 48, 60);
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    border: 5px double rgba(255, 255, 0, 0.727);
+    border-radius: 30px;
+    margin: 1vw;
+    margin-top: 5vw;
+}
+.gamvedahası{
+    display: flex;
+    flex-direction: column;
+}
+
+.gamismi{
+    background-color: rgb(107, 25, 25);
+    color: rgba(255, 255, 0, 0.727);
+    font-size: 4vw;
+    color: rgba(255, 255, 0, 0.727);
+    font-family: cursive;
+    font-weight: bold;
+    margin-bottom: -5vw;
+    border: 2px solid rgba(255, 255, 0, 0.727);
+    border-radius: 5vw 30vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 1vw;
+}
+.dizi{
+    color: rgb(255, 247, 0);
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    margin-left: -60vw;
+    margin-top: -0.5;
+}
+.transpoze{
+    color: rgb(255, 247, 0);
+    font-size: 2vw;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: cursive;
+    margin-left: 70vw;
+    margin-top: -1vw;
+}
+.yesil{
+    background-color: rgb(1, 191, 1);
+}
+.turuncu{
+    background-color: rgba(255, 123, 0, 0.494);
+}
