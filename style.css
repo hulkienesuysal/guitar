@@ -23,9 +23,35 @@ body{
     margin-bottom: 3vw;
     display: flex;
     justify-content: space-evenly;
+    text-shadow: 3px 2px 1px crimson;
 }
 img{
     height: 6vw;
+}
+hr{
+    color:  rgba(255, 255, 0, 0.727);
+    border:  rgba(255, 255, 0, 0.727) double;
+    margin-top: 5vw;
+}
+.info table{
+    width: 40vw;
+    margin-bottom: -2vw;
+}
+.infotd{
+    background-color: #000000ef;
+    color: rgba(214, 202, 30, 0.733);
+    text-shadow: 1px 1px 1px crimson;
+}
+.ilerle{
+    margin-top: 3vw;
+    margin-bottom: -4vw;
+}
+.ilerle table td a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.719);
+}
+.ilerle table td{
+    background-color: rgba(179, 15, 15, 0.719);
 }
 .kapsayıcı{
     background-color: rgba(0, 44, 41, 0.426);
@@ -77,6 +103,7 @@ tr, td{
     font-weight: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 1vw;
+    
 }
 .perdesıfır{
     background-color: hsla(0, 0%, 46%, 0.753);
@@ -127,9 +154,11 @@ tr, td{
     margin-bottom: 1vw;
     border: 5px double rgba(255, 255, 0, 0.727);
     border-radius: 1000vw 5vw ;
-    margin-left: 25vw;
-    margin-right: 25vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     text-decoration: underline;
+    margin-bottom: 4vw;
+    text-shadow: 3px 2px 1px crimson;
 } 
 .gamkapsam{
     background-color: rgb(8, 48, 60);
@@ -168,6 +197,19 @@ tr, td{
     margin-left: -60vw;
     margin-top: -0.5;
 }
+span{
+    color: #ff7b00ec;
+}
+.up{
+    margin-left: 96%;
+    color: yellow;
+    font-size: 5vw;
+    margin-top: -8vw;
+    margin-bottom: 2vw;
+    text-decoration: none;
+    text-shadow: 3px 3px 3px crimson;
+    width: 2vw;
+}
 .transpoze{
     color: rgba(255, 255, 0, 0.727);
     font-size: 2vw;
@@ -182,4 +224,59 @@ tr, td{
 }
 .turuncu{
     background-color: rgba(255, 123, 0, 0.494);
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    tr,td{
+        font-size: 1.9vw;
+        height: 2.7vw;
+    }
+  }
+@media only screen and (max-width: 900px) {
+    tr,td{
+        font-size: 1.8vw;
+        height: 2.7vw;
+        
+    }
+}
+@media only screen and (max-width: 800px) {
+    tr,td{
+        font-size: 1.7vw;
+        height: 2.7vw;
+    }
+}
+@media only screen and (max-width: 750px) {
+    tr,td{
+        font-size: 1.6vw;
+        height: 2.7vw;
+    }
+}
+@media only screen and (max-width: 700px) {
+    tr,td{
+        font-size: 1.5vw;
+        height: 2.7vw;
+    }
+}
+@media only screen and (max-width: 650px) {
+    tr,td{
+        font-size: 1.4vw;
+        height: 2.7vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    tr,td{
+        font-size: 1.3vw;
+        height: 2.7vw;
+        
+    }
+    
+}
+@media only screen and (max-width: 300px) {
+    tr,td{
+        font-size: 0.5vw;
+        height: 2.7vw;
+    }
 }
